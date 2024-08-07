@@ -1,3 +1,17 @@
+/*
+
+ ██████  ████████   █████ 
+██            ███  ██   ██ 
+███████    ████    ███████ 
+██       ███       ██   ██ 
+ ██████  ████████  ██   ██ 
+                        
+File: index.css
+Auth: Joseph Mi
+Desc: styling for chrome extension
+
+*/
+
 body {
     display: flex;
     justify-content: center;

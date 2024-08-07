@@ -1,3 +1,17 @@
+/*
+
+ ██████  ████████   █████ 
+██            ███  ██   ██ 
+███████    ████    ███████ 
+██       ███       ██   ██ 
+ ██████  ████████  ██   ██ 
+                        
+File: popup.js
+Auth: Joseph Mi
+Desc: login and write button functionality
+
+*/
+
 document.getElementById('login-button').addEventListener('click', function() {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;

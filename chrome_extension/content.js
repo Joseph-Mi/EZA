@@ -1,3 +1,16 @@
+/*
+
+ ██████  ████████   █████ 
+██            ███  ██   ██ 
+███████    ████    ███████ 
+██       ███       ██   ██ 
+ ██████  ████████  ██   ██ 
+                        
+File: content.js
+Auth: Joseph Mi
+Desc: scrape text from a webpage (need work)
+
+*/
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     if (request.action === 'scrapeData') {
         // Example: Scrape all paragraph text
