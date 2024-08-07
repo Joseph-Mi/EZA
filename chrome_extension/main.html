@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" class="input-field" placeholder="Enter your username">
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="input-field" placeholder="Enter your password">
+            </div>
+            <button type="button" id="login-button" class="login-button">Login</button>
+        </form>
+        <div id="logged-in" style="display: none;">
+            <button id="write-button" class="write-button">Write</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
